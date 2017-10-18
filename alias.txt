@@ -1,0 +1,10 @@
+alias active='source ~/.zshrc'
+alias vzsh='vim ~/.zshrc'
+alias lss='ls -ltrh'
+alias fresh='git remote update origin --prune'
+alias note='jupyter notebook'
+alias pss='ps -ef | grep'
+alias cls='clear'
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
