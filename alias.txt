@@ -1,6 +1,7 @@
 alias active='source ~/.zshrc'
 alias vzsh='vim ~/.zshrc'
 alias lss='ls -ltrh'
+alias space='du -h'
 alias fresh='git remote update origin --prune'
 alias pss='ps -ef | grep'
 alias cls='clear'
